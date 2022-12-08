@@ -5,3 +5,4 @@
 4-puts.c is a C program that prints exactly "Programming is like building a multilingual puzzle"
 5-printf.c prints a string using printf
 6-size.c prints the size of various types on the computer it is compile and run on
+100-intel generates the assembly code(intel syntax) of a C code
