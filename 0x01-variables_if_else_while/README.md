@@ -3,3 +3,4 @@ Using variables, if_else, and while statements - C
 1-last-digit prints the last digit of a random integer
 2-print_alphabet prints lowercase alphabets using putchar
 3-print_alphabets prints lower and uppercase letters using putchar
+4-print_alphabt prints lowercase alphabets excluding e and q
