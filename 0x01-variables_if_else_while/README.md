@@ -5,3 +5,4 @@ Using variables, if_else, and while statements - C
 3-print_alphabets prints lower and uppercase letters using putchar
 4-print_alphabt prints lowercase alphabets excluding e and q
 5-print_numbers prints numbers less than 10
+6-print_numberz prints single digit number of base 10
