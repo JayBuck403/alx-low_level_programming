@@ -7,3 +7,4 @@ Using variables, if_else, and while statements - C
 5-print_numbers prints numbers less than 10
 6-print_numberz prints single digit number of base 10
 7-print_tebahpla prints lowercase alphabets in reverse
+8-print_base16 prints base16 numberz
