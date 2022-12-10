@@ -16,10 +16,10 @@ int main(void)
 		{
 			if (i < j)
 			{
-				putchar(i);
-				putchar(j);
-				putchar(',');
-				putchar(' ');
+					putchar(i);
+					putchar(j);
+					putchar(',');
+					putchar(' ');
 			}
 		}
 	}

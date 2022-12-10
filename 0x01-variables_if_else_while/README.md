@@ -10,3 +10,4 @@ Using variables, if_else, and while statements - C
 8-print_base16 prints base16 numberz
 9-print_comb prints numbers separated by commas
 100-print_comb3 prints combination of two digits
+101-print_comb4 prints all possible different combinations of three digits
