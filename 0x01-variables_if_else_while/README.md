@@ -9,3 +9,4 @@ Using variables, if_else, and while statements - C
 7-print_tebahpla prints lowercase alphabets in reverse
 8-print_base16 prints base16 numberz
 9-print_comb prints numbers separated by commas
+100-print_comb3 prints combination of two digits
