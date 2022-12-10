@@ -11,3 +11,4 @@ Using variables, if_else, and while statements - C
 9-print_comb prints numbers separated by commas
 100-print_comb3 prints combination of two digits
 101-print_comb4 prints all possible different combinations of three digits
+102-print_comb5 prints two two-digit combinations
