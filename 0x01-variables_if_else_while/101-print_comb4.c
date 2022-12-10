@@ -2,7 +2,7 @@
 
 /**
  * main - Prints combinations of three numbers
- * Return (0)
+ * Return: (0)
  */
 
 int main(void)
