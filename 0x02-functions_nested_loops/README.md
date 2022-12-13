@@ -7,3 +7,4 @@ C Functions and Nested Loops
 5-sign prints the sign of a number
 6-abs computes absolute value of an integer
 7-print_last_digit prints the last digit of a number
+10-add calculates the sum of two integers
