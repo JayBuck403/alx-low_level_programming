@@ -6,3 +6,4 @@
 5-more_numbers prints 0-14 ten times
 6-print_line draws a straight line
 8-print_square prints a square
+9-fizz_buzz prints fizz buzz for multiples of three and 5
