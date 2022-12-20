@@ -10,9 +10,6 @@
 
 char *_strcpy(char *dest, char *src)
 {
-	if (dest == NULL)
-		return NULL;
-
 	char *ret_ptr = dest;
 
 	while (*src != '\0')
