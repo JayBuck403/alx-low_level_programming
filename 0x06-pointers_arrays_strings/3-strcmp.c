@@ -5,7 +5,7 @@
  * @s1: string input
  * @s2: string input
  *
- * Return: 0 if strings are equal, 15 if s1 is greater than s2 and -15 if s1 is less than s2
+ * Return: 0 equal, 15 s1 is greater than s2 and -15 if s1 is less than s2
  */
 
 int _strcmp(char *s1, char *s2)
@@ -21,7 +21,7 @@ int _strcmp(char *s1, char *s2)
 			return (0);
 		}
 
-	       	j = (int) s1[i];
+		j = (int) s1[i];
 		k = (int) s2[i];
 
 		if (j > k)
