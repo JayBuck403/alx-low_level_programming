@@ -11,19 +11,15 @@ char *string_toupper(char *s)
 {
 	int i;
 	int n = _strlen(s);
-
+	
 	for (i = 0; i < n; i++)
 	{
-		if (s[i] >= 'a' && s[i] >= 'z')
+		if (s[i] >= 'a' && s[i] <= 'z')
 		{
-			_putchar(s[i] - 32);
-		}
-		else
-		{
-			_putchar(s[i]);
+			s[i] = s[i] - 'a' + 'A';
 		}
 	}
-	_putchar('\n');
+	return (s);
 }
 
 /**
