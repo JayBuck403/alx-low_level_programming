@@ -9,38 +9,21 @@
 
 char *rot13(char *s)
 {
-	int i;
+	char m[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char n[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+
+	int i = 0;
+	int j = 0;
 
 	while (s[i] != '\0')
 	{
-		for (i = 0; i < _strlen(s); i++)
+		for (j = 0; m[j] != '\0' && s[i] != m[j]; j++)
+			;
+		if (j < 52)
 		{
-			if ((s[i] >= 'A' && s[i] <= 'M') || (s[i] >= 'a' && s[i] <= 'm'))
-				s[i] = s[i] + 13;
-			else if ((s[i] >= 'N' && s[i] <= 'Z') || (s[i] >= 'n' && s[i] <= 'z'))
-				s[i] = s[i] - 13;
+			s[i] = n[j];
 		}
 		i++;
 	}
 	return (s);
-
-}
-
-/**
- * _strlen - computes thr length of a string
- * @s: string to computes
- *
- * Return: integer
- */
-
-int _strlen(char *s)
-{
-	int i = 0;
-
-	while (s[i] != '\0')
-	{
-		i++;
-	}
-
-	return (i);
 }
