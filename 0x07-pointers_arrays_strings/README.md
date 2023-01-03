@@ -5,3 +5,4 @@
 4-strpbrk searches a string for any of a set of bytes
 5-strstr locates a substring
 7-print_chessboard prints a chessboard
+8-print_diagsums print the sum of the twodiagonal of a square matrix of integers
