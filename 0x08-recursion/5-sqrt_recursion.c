@@ -27,14 +27,13 @@ int _sqrt_recursion(int n)
 
 int square(int a, int b)
 {
-        if (a * a == b)
-        {
-                return (a);
-        }
-        else if (a > b / 2)
-        {
-                return (-1);
-        }
-        return (square(a + 1, b));
+	if (a * a == b)
+	{
+		return (a);
+	}
+	else if (a > b / 2)
+	{
+	return (-1);
+	}
+	return (square(a + 1, b));
 }
-
