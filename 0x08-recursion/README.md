@@ -4,3 +4,4 @@
 2-strlen_recursion prints the length of a string
 3-factorial returns the factorial of a number
 4-pow returns the power of a number
+5-sqrt returns the square root of a number
