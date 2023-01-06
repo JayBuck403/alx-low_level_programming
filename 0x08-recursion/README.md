@@ -5,3 +5,4 @@
 3-factorial returns the factorial of a number
 4-pow returns the power of a number
 5-sqrt returns the square root of a number
+6-is_prime_number checks for prime numbers
