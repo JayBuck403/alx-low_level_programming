@@ -15,7 +15,7 @@ int prime_number(int i, int n)
 	else if (i > n / 2)
 		return (1);
 	else
-		return (prime(i + 1, n));
+		return (prime_number(i + 1, n));
 }
 
 /**
