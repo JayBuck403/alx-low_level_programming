@@ -29,6 +29,6 @@ int main(int argc, char *argv[])
 	ptr = get_op_func(argv[2]);
 	k = ptr(i, j);
 
-	printf("%d\n", j);
+	printf("%d\n", k);
 	return (0);
 }
