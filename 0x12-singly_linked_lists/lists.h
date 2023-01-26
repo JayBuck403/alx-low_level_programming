@@ -9,7 +9,7 @@
  * @len: length of the string
  * @next: next node
  */
-typedef struct list_x
+typedef struct list_t
 {
 	char *str;
 	unsigned int len;
