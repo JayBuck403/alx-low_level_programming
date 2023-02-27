@@ -23,7 +23,7 @@ unsigned int binary_to_uint(const char *b)
 
 	pow = 0;
 	sum = 0;
-	while (b >= s)
+	while (b >= p)
 	{
 		if (*b != '0' && *b != '1')
 		{
@@ -31,6 +31,7 @@ unsigned int binary_to_uint(const char *b)
 		}
 		i = *b - '0';
 		val = i * (1 << pow);
+		sum = sum + val;
 		b--;
 		pow++;
 	}
